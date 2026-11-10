@@ -1,0 +1,6 @@
+{
+  "name": "long-jobs",
+  "description": "Run or wait for long commands (cargo test, builds, CI) without losing their result; a hook refuses the recurring mistakes",
+  "version": "0.1.0",
+  "author": { "name": "Quarz" }
+}

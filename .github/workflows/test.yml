@@ -1,0 +1,14 @@
+# Runs the hooks' tests with the runner's python3.
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 plugins/long-jobs/hooks/long-jobs-guard-test.py
